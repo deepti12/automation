@@ -21,8 +21,8 @@ public class MyStepdefs {
         System.out.println("inside browser is open");
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
-       driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+      // driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+       // driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
     }
@@ -41,7 +41,7 @@ public class MyStepdefs {
     @Then("^User is navigate to home page$")
     public void userIsNavigateToHomePage() throws InterruptedException {
         Assert.assertTrue(login.checkLogOutidsDisplayed());
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.close();
     }
 
