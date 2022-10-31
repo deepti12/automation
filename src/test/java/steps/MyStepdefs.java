@@ -25,6 +25,8 @@ public class MyStepdefs {
        // driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
+        System.out.println("browser us open");
+
     }
 
     @And("^User is on login Page$")
