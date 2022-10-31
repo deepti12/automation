@@ -51,7 +51,7 @@ public class MyStepdefs {
         login=new LoginPage(driver);
         login.enterUsername(username);
         login.enterPassword(password);
-        Thread.sleep(2000);
+        Thread.sleep(4000);
     }
 
 
