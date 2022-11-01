@@ -7,7 +7,7 @@ import cucumber.api.java.en.When;
 public class Multiplecondition {
     @Given("^User is at the login page of the application$")
     public void userIsAtTheLoginPageOfTheApplication() {
-        System.out.println("userIsAtTheLoginPageOfTheApplication");
+        System.out.println("userIsAtTheLoginPageOfTheApplicatiosn");
     }
 
     @When("^User logs in with following username and password$")
