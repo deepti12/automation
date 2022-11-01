@@ -12,7 +12,7 @@ public class Multiplecondition {
 
     @When("^User logs in with following username and password$")
     public void userLogsInWithFollowingUsernameAndPassword() {
-        System.out.println("User logs in with following username and password");
+        System.out.println("User logs in with following username and passwords");
     }
 
     @Then("^user should be able to login with correct username and password$")
