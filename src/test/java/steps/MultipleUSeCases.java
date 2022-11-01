@@ -18,7 +18,7 @@ public class MultipleUSeCases {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
-      //  System.out.println("userIsOnNewPage");
+        System.out.println("userIsOnNewPage");
     }
 
     @When("^User Navigate to Login Page$")
