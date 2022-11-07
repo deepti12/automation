@@ -32,6 +32,7 @@ public class MyStepdefs {
     @And("^User is on login Page$")
     public void userIsOnLoginPage() {
         driver.navigate().to("https://example.testproject.io/web/");
+        System.out.println("heloo");
     }
 
 
